@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+coverage/
+
+# Generated files
+*.min.js
+
+# Config files
+vite.config.ts
+tailwind.config.js
+
+# Environment files
+.env*
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test outputs
+test-results/
+playwright-report/

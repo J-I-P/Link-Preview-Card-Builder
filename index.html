@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Generate shareable link preview cards instantly. Input URLs with custom titles, descriptions, and images. Export as PNG or copy HTML." />
+
+  <!-- Social Media Meta Tags -->
+  <meta property="og:title" content="Link Preview Card Builder" />
+  <meta property="og:description" content="Create beautiful link preview cards for social media sharing" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://your-username.github.io/Link-Preview-Card-Builder/" />
+  <meta property="og:image" content="https://your-username.github.io/Link-Preview-Card-Builder/assets/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Link Preview Card Builder" />
+  <meta name="twitter:description" content="Create beautiful link preview cards for social media sharing" />
+  <meta name="twitter:image" content="https://your-username.github.io/Link-Preview-Card-Builder/assets/twitter-image.png" />
+
+  <!-- Favicon and Icons -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+
+  <!-- Performance and Security -->
+  <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+  <meta http-equiv="X-Frame-Options" content="DENY" />
+  <meta http-equiv="X-XSS-Protection" content="1; mode=block" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+
+  <!-- PWA Support -->
+  <link rel="manifest" href="/manifest.json" />
+  <meta name="theme-color" content="#3B82F6" />
+
+  <!-- Preconnect for Performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <title>Link Preview Card Builder</title>
+  <script type="module" crossorigin src="/Link-Preview-Card-Builder/assets/main-DQA3hiCu.js"></script>
+</head>
+<body>
+  <!-- Application Container -->
+  <div id="app">
+    <!-- Loading fallback for non-JS users -->
+    <noscript>
+      <div class="min-h-screen bg-gray-50 flex items-center justify-center">
+        <div class="max-w-md mx-auto text-center p-8">
+          <h1 class="text-2xl font-bold text-gray-900 mb-4">Link Preview Card Builder</h1>
+          <p class="text-gray-600 mb-4">
+            This application requires JavaScript to function properly.
+            Please enable JavaScript in your browser and refresh the page.
+          </p>
+          <div class="text-sm text-gray-500">
+            <p>This tool helps you create beautiful link preview cards for social media sharing.</p>
+          </div>
+        </div>
+      </div>
+    </noscript>
+
+    <!-- Loading indicator -->
+    <div id="loading" class="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center">
+      <div class="text-center">
+        <div class="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto mb-4"></div>
+        <h1 class="text-xl font-semibold text-gray-900 mb-2">Link Preview Card Builder</h1>
+        <p class="text-gray-600">Loading application...</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Application Script -->
+
+  <!-- Analytics placeholder (to be configured later) -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- Add analytics script here if needed -->
+
+  <!-- Service Worker for PWA (future enhancement) -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+          .then((registration) => {
+            console.log('SW registered: ', registration);
+          })
+          .catch((registrationError) => {
+            console.log('SW registration failed: ', registrationError);
+          });
+      });
+    }
+  </script>
+</body>
+</html>
