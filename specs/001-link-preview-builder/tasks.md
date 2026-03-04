@@ -31,10 +31,10 @@ description: "Task list template for feature implementation"
 - [x] T001 Create project structure per implementation plan
 - [ ] T002 Initialize TypeScript project with Vite and Tailwind CSS dependencies
 - [x] T003 [P] Configure ESLint and Prettier for TypeScript
-- [ ] T004 [P] Setup Vite configuration for GitHub Pages deployment in vite.config.ts
-- [ ] T005 [P] Configure Tailwind CSS with custom theme in tailwind.config.js
-- [ ] T006 [P] Setup TypeScript configuration in tsconfig.json
-- [ ] T007 Create main HTML template in index.html
+- [x] T004 [P] Setup Vite configuration for GitHub Pages deployment in vite.config.ts
+- [x] T005 [P] Configure Tailwind CSS with custom theme in tailwind.config.js
+- [x] T006 [P] Setup TypeScript configuration in tsconfig.json
+- [x] T007 Create main HTML template in index.html
 
 ---
 
